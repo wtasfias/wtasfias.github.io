@@ -1,0 +1,19 @@
+# wtasfias.github.io
+!
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click "Your Path". Wait 1 seconds, and the page will alert "Your Destiny".</p>
+
+<button onclick="setTimeout(myFunction, 1000);">Slowly get up and crawl to the door</button>
+
+<script>
+function myFunction() {
+    alert('You Died')
+
+}
+</script>
+
+</body>
+</html>
