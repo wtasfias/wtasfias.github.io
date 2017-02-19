@@ -1,29 +1,17 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<title>Scene Two</title>
-		<style >
-	    #background{
-	        background-image: url(http://kaijupop.com/wp-content/uploads/2013/11/dark-room-1094x520.jpg);
-        	background-size: 110%;
-        	background-repeat:no-repeat;
-	    }
-	    #paragraph{
-	   margin-left: auto;
-	    margin-right: auto;
-	    width: 650px;
-	    color: rgb(170,0,0);
-	    font-size: 40px;
-	    text-align:center;
-	    }
-	</style>
-	
-	</head>
+    <head>
+        <link rel="stylesheet" href="style.css"/> 
+        .lose{
 
-	<body id = "background">
-	    <h1 id = "LOSE"></h1>
-		<p id = "paragraph">
-			At 3:00AM, your eyes snap open. Your fellow code day students are all sound asleep. You hear a door creak prompting you to open your eyes . All that can be seen is the dim light peering through your window. Then suddenly, a piercing beam of light cuts through the air. Frantically, you look around and snores are still prominent in the room. You see a treacherous slim man in a bomber jacket tiptoeing with vigilance. What do you do?
-		</p>		
-	</body>
+        }
+    </head>
+    <body id = "page2background">
+        <script type="text/javascript" src="script.js"></script>
+        <p id = "page2text"> At 3:00AM, your eyes snap open. Your fellow code day students are all sound asleep. You hear a door creak prompting you to open your eyes. All that can be seen is the dim light peering through your window. Then suddenly, a piercing beam of light cuts through the air. Frantically, you look around and snores are still prominent in the room. You see a treacherous slim man in a bomber jacket tiptoeing with vigilance. What do you do?
+        </p>
+        <button id= "page2buttons" onclick="nextButton(3)"> Pretend to sleep</button>
+        <button id= "page2buttons" onclick="nextButton(4)"> Sit up and yell at the person to turn his flashlight off</button>
+        <button id = "page2buttons" onclick="nextButton(5)"> Open your computer and start playing League</button>
+    </body>
 </html>
