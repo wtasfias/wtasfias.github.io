@@ -2,13 +2,20 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css"/>
-        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <script>
-            function buttonFunction() {
-                alert('hi');
-            }
+alert("Hello!");
+
+function buttonFunction() {
+    var x;
+    if (confirm("Click a button!") == true) {
+        x = "you clicked ok!"
+    } else {
+        x = "You clicked cancel!"
+    }
+    document.getElementById("test").innerHTML = x;
+}
         </script>
         <img src="https://github.com/hackclub/dinosaurs/raw/master/smart_dinosaur_docs.png">
         <h1> Jeremy </h1>
