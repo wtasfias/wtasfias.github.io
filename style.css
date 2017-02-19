@@ -7,3 +7,24 @@ body {
     font-family: "Sans serif";
     
 }
+#page2text
+{
+    margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+	color: rgb(170,0,0);
+	font-size: 40px;
+	text-align:center;
+}
+#page2background
+{
+    background-image: url(http://kaijupop.com/wp-content/uploads/2013/11/dark-room-1094x520.jpg);
+	background-size: 110%;
+}
+#page2buttons{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+#win{
+}
